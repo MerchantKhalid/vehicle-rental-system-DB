@@ -34,7 +34,7 @@ This project demonstrates a comprehensive **Vehicle Rental System** database des
 ## 📁 Project Structure
 
 ```
-vehicle-rental-system-db/
+vehicle-rental-system-db-db/
 │
 ├── sql/
 │   ├── schema.sql           # Database table creation script
@@ -222,7 +222,7 @@ ORDER BY total_bookings DESC;
 ### Prerequisites
 
 - MySQL 8.0 or higher
-- MySQL Workbench (optional but recommended)
+- MySQL Workbench (optional)
 - Basic understanding of SQL
 
 ### Installation Steps
@@ -230,8 +230,8 @@ ORDER BY total_bookings DESC;
 1. **Clone or Download the Project**
 
    ```bash
-   git clone <repository-url>
-   cd vehicle-rental-system
+   git clone <https://github.com/MerchantKhalid/vehicle-rental-system-DB>
+   cd vehicle-rental-system-db
    ```
 
 2. **Create Database**
@@ -278,7 +278,7 @@ SELECT COUNT(*) FROM Bookings;
 
 **What is a foreign key and why is it important?**
 
-A foreign key is a column (or set of columns) in one table that refers to the primary key in another table. It's important because:
+A foreign key is a column in one table that refers to the primary key in another table. It's important because:
 
 - **Maintains Data Integrity:** Ensures referential integrity between tables
 - **Prevents Orphaned Records:** Can't delete a parent record if child records exist
@@ -380,8 +380,7 @@ LEFT JOIN: Returns 3 rows (Charlie included with NULL bookings)
 
 ## 👨‍💻 Author
 
-**[Your Name]**  
-**Course:** [Your Course Name]  
+**[MOHAMMAD KHALID HASAN]**  
 **Assignment:** Vehicle Rental System - Database Design  
 **Date:** January 2026
 
@@ -403,7 +402,7 @@ This project is created for educational purposes as part of a database design as
 
 **📌 Important Links:**
 
-- [ERD Shareable Link](./ERD_LINK.txt)
+- [ERD Shareable Link](https://lucid.app/lucidchart/334e7393-138e-44b1-8f78-f1b2e1166476/edit?invitationId=inv_b24ee0a3-4dbf-4dca-b4c3-429ff4f217b4)
 - [Query Results](./QUERY.md)
 - [Database Schema](./schema.sql)
 - [Sample Queries](./queries.sql)
