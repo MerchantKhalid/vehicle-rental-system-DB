@@ -230,7 +230,7 @@ ORDER BY total_bookings DESC;
 1. **Clone or Download the Project**
 
    ```bash
-   git clone <https://github.com/MerchantKhalid/vehicle-rental-system-DB>
+   git clone https://github.com/MerchantKhalid/vehicle-rental-system-DB
    cd vehicle-rental-system-db
    ```
 
